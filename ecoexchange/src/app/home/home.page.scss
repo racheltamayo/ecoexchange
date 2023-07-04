@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap');
+
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+
+ion-content {
+  --ion-background-color: #003a1b;
+}
+
+ion-toolbar {
+  font-family: 'Belanosima', sans-serif;
+  --background: #003a1b;
+  
+}
+
+.first-color {
+  font-size: 25px;
+  color: #ccff33; /* first color */
+}
+.second-color {
+  font-size: 25px;
+  color: white; /* second color */
+}
+
+ion-title{
+  padding: 20px; 
+}
+
+ion-button {
+  font-family: 'Ysabeau SC', sans-serif;
+  margin-right: 35px; /* Adjust the value as per your preference */
+}
